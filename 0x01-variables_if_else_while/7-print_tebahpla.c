@@ -2,14 +2,14 @@
 /**
  * main - the main function
  *
- * Return: should probably be 0
+ * Return: must be (0)
  */
 int main(void)
 {
 	char i;
 
 	for (i = 'z' ; i >= 'a' ; i--)
-	       putchar(i);
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
