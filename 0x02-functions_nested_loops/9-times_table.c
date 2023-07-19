@@ -14,7 +14,9 @@ void times_table(void)
 		for (c = 0 ; c < 10 ; c++)
 		{
 			result = r * c;
-			if (c == 9)
+			if (c == 0)
+				printf("%d, ", result);
+			else if (c == 9)
 				printf("%2d", result);
 			else
 			printf("%2d, ", result);
